@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>https://qwerty.mcv.kr/.well-known/discord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qwerty | MIDCORE Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    dh=8e9b667a328a6fab1e59531053a2fb8b2f22a138 aks
+
+    <nav class="top-nav">
+        <div class="visit-counter">TODAY'S VISIT: <span id="visit-count">0</span></div>
+    </nav>
+
+    <div class="bg-grid"></div>
+
+    <section class="hero">
+        <img src="img/midcore_logo.png" alt="logo" class="hero-logo">
+        <h1 id="hero-title">qwerty</h1>
+    </section>
+
+    <div class="about-wrap">
+        <div class="about-sticky">
+            <p class="intro-text t1">안녕하세요.</p>
+            <p class="intro-text t2"><b>마카오톡</b>과 비슷한<br>가상 세계를 설계하고 운영하는,</p>
+            <p class="intro-text t3"><i>MIDCORE 제작자</i><br><b>qwerty</b> 라고 합니다.</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <div class="container-center">
+            <h2 class="section-title">MY FRIENDS</h2>
+            
+            <div class="member-card">
+                <img src="img/maro.png" alt="MARO" class="profile-img">
+                <div class="member-info">
+                    <h2>MARO (마로)</h2>
+                    <p class="role">SCHOOL FRIEND</p>
+                    <p class="desc">진짜로 뭐하는지 알수없는<br>학교친구 MARO 입니다.</p>
+                </div>
+            </div>
+
+            <div class="member-card">
+                <img src="img/포러스.png" alt="fours" class="profile-img">
+                <div class="member-info">
+                    <h2>_fours (포러스)</h2>
+                    <p class="role">월급루팡</p>
+                    <p class="desc">진짜로 서버 관리도 안하는<br>월급루팡 포러스입니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="partner-section">
+        <div class="partner-card">
+            <div class="partner-header">
+                <img src="img/terross.png" alt="terross" class="partner-icon">
+                <div class="partner-title">
+                    <p class="nitro-call">🔥 니트로를 공짜로 얻고 싶다면?</p>
+                    <h1>TERROSS</h1>
+                </div>
+            </div>
+            
+            <div class="partner-content">
+                <div class="info-grid">
+                    <p>👶 신생 서버 입니다! (개발 중)</p>
+                    <p>😭 아직 개발 중 이여서 사람은 적지만</p>
+                    <p>🥳 예정된 이벤트도 많고</p>
+                    <p>🏛️ 스폰 건물도 멋있으며</p>
+                    <p>👨‍🔬 연구 시스템과</p>
+                    <p>🌎 1:1000 비율의 방대한 세계지도 맵!</p>
+                    <p>👹 그리고 한달에 한번 열리는 보스전</p>
+                    <p>🏹 일주일에 한번 열리는 코스(점령전)</p>
+                    <p>⚔️ 금,토,일 8시~10시 전쟁 시간 까지!</p>
+                </div>
+
+                <div class="event-box">
+                    <h3>📢 추첨 이벤트 🎉</h3>
+                    <p>🕤 서버 인원 190명 달성 시 추첨을 통해 니트로 선물!</p>
+                </div>
+            </div>
+
+            <a href="https://discord.gg/mZhUXUkWHM" class="discord-btn" target="_blank">테로스 서버 참여하기</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="email">limsuno525@naver.com</h2>
+        <div class="ai-credit">
+            이 사이트는 AI인 <b>GEMINI</b>를 이용해 만들어졌습니다.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
